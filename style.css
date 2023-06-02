@@ -1,0 +1,68 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&family=Work+Sans:wght@100&display=swap");
+@font-face {
+  font-family: "idroid";
+  src: url("arquivos-Fonte-Desafio/fontes/idroid.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: #84e1ad;
+}
+header {
+  background-image: linear-gradient(to bottom, #3cd781, #299457, #1a5c38);
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Staatliches", cursive;
+  padding: 5px;
+}
+header > p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+  font-size: 20px;
+}
+nav {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+    font-size: 17 px;
+    padding: 15px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 16px;
+    
+}
+main {
+  background-color: white;
+  width: 85%;
+  margin: auto;
+}
+h2 {
+    font-family: "idroid", Verdana;
+    padding: 10px;
+}
+section > p, article > p { 
+    text-indent: 24px;
+    text-align: justify;
+    padding: 15px;
+    font-size: 20px;
+}
+h3 {
+    font-family: "idroid", Verdana;
+    padding: 0 10px;
+    background-image: linear-gradient(to right, #a5e1c0,  #ffff);
+    margin: 10px;
+}
+img {
+    
+}
